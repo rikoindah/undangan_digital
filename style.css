@@ -21,7 +21,7 @@ body {
 .container {
     width: 100%;
     display: flex;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .slide {
@@ -37,6 +37,18 @@ body {
     position: relative;
     transition: all 0.7s ease-in-out;
     filter: blur(4px);
+}
+.dinda {
+    font-size: 14px;
+}
+.p {
+    font-size: 24px;
+}
+.date {
+    text-align: center;
+}
+.date img {
+    width: 90vw;
 }
 
 .slide h3 {
